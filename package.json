@@ -1,0 +1,12 @@
+{
+  "name": "flickr-backup",
+  "version": "0.0.1",
+  "engines": {
+    "node": "~0.6.10"
+  },
+  "dependencies": {
+    "express": "2.5.x",
+    "flickr": "0.1.x",
+    "oauth": "0.9.x"
+  }
+}
