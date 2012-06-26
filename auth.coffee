@@ -22,14 +22,9 @@ app.get '/oauth/callback', (req, res) ->
       console.error "Error while getting access token"
       console.error err
     else
-      console.log "OAuth access token: #{oauth_token}"
-      console.log "OAuth access token secret: #{oauth_token_secret}"
-      console.log "OAuth access token results:"
-      console.log results
-
       console.log "Verification succeeded"
-      console.log "OAuth token: #{oauthToken}"
-      console.log "OAuth token secret: #{oauthTokenSecret}"
+      console.log "OAuth token: #{oauth_token}"
+      console.log "OAuth token secret: #{oauth_token_secret}"
 
 
 app.listen 3000
